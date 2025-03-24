@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "Chronox"
+description = "a powerful timer for measuring the execution time of Python functions!"
+authors = [{name = "Jaehyun Ahn", email = "jtic0524@gmail.com"}]
+version = "0.1.0"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+readme = "README.md"
+keywords = ["timer", "performance"]
+dependencies = [
+    "matplotlib>=3.0"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/injtic/chronox"
+Documentation = "https://github.com/injtic/chronox/wiki"
+Repository = "https://github.com/injtic/chronox"
+Issues = "https://github.com/injtic/chronox/issues"
